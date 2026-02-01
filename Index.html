@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emb Hub - Quality Embroidery Works</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .gallery-item label {
+            display: block;
+            padding: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            background-color: #ecf0f1;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        .whatsapp-button:hover {
+            background-color: #128c7e;
+        }
+        @media (max-width: 768px) {
+            header {
+                font-size: 2em;
+                padding: 30px 20px;
+            }
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                padding: 10px;
+            }
+            .whatsapp-button {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Emb Hub - Quality Embroidery Works
+    </header>
+    <section class="gallery">
+        <!-- Placeholder images; replace with actual uploaded photos -->
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/250x200?text=Flag+Embroidery" alt="Flag Embroidery">
+            <label>Flag Work</label>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/250x200?text=Towel+Embroidery" alt="Towel Embroidery">
+            <label>Towel Design</label>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/250x200?text=Shirt+Embroidery" alt="Shirt Embroidery">
+            <label>Shirt Work</label>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/250x200?text=Jhabbe+Embroidery" alt="Jhabbe Embroidery">
+            <label>Jhabbe Design</label>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/250x200?text=Rida+Embroidery" alt="Rida Embroidery">
+            <label>Rida Design</label>
+        </div>
+        <!-- Add more items as needed -->
+    </section>
+    <button class="whatsapp-button" onclick="window.open('https://wa.me/1234567890?text=Inquiry%20about%20Emb%20Hub%20embroidery%20works', '_blank')">💬</button>
+</body>
+</html>
